@@ -6,7 +6,7 @@
 * **Email:** marisse.happy@gmail.com
 * **Discord:** Marisse-here
 * **Location:** Minsk, Belarus
-### **About Me**###
+### **About Me** ###
 ---
 My goal is to learn Javascript to create web-pages. I'm a smart, ambitious and stress-resistant person. I'm a fast learner and excellent team worker. Also I'm able to multitask. 
 *2016-2022* Sales Assistant in the optics shop "Fielmann"
@@ -18,7 +18,8 @@ My goal is to learn Javascript to create web-pages. I'm a smart, ambitious and s
 + Functional Testing
 ### **Code Example** ###
 ---
-```function multiply (a, b)
+```
+function multiply (a, b)
 {return a * b}
 ```
 ### **Experience** ###
