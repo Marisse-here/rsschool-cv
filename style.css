@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto';
+  }
 div {
     border: 1px solid;
 }
@@ -6,8 +10,7 @@ div {
 }
 .left, .right {
     display: inline-block;
-
-    
+  
 }
 .left {
     width: 30%;
@@ -16,9 +19,9 @@ div {
 }
 .right {
     width: 55%;
-  
-    
+     
 }
+
 @font-face {
     font-family: 'Roboto';
     src: url("assets/fonts/RobotoLight.ttf");
@@ -30,6 +33,4 @@ div {
     font-weight: 400;
   }
 
-   * {
-    box-sizing: border-box;
-  }
+  
