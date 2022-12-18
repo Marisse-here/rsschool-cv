@@ -1,13 +1,8 @@
 * {
     box-sizing: border-box;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
   }
-body {
-    font-family: 'Roboto';
-}
-div {
-    border: 1px solid;
-}
+
 .parent {
     text-align: center;
 }
@@ -24,16 +19,23 @@ div {
     width: 55%;
      
 }
-h2 {
-    font-family: 'Roboto', sans-serif;
+.h2-right {
+   
     font-size: 30px;
+    text-align: left;
+    padding-left: 50px;
     
+}
+
+.h2-left {
+    font-size: 30px;
+    text-align: middle;
+    padding-left: 50px;  
 }
 
 .contactlist {
     text-align: left;
     padding-left: 120px;
-    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     line-height: 30px;
 }
@@ -41,19 +43,69 @@ h2 {
 {
     text-align: left;
     padding-left: 120px;
-    font-family: 'Roboto', sans-serif;
+    
     font-size: 20px;
     line-height: 30px;
 }
 .name {
-    font-family: 'Roboto', sans-serif;
-    font-size: 50px;
+    
+    font-size: 40px;
     font-style: italic;
     text-align: left;
     padding-left: 50px;
     line-height: 10px;
+    text-decoration:underline;
+}
+.aboutmetext {
+    text-align: left;
+    padding-left: 30px;
+    
+    font-size: 20px;
+    line-height: 30px;
+}
+.educationtext {
+    text-align: left;
+    padding-left: 15px;
+    
+    font-size: 20px;
+    line-height: 30px; 
 }
 
+.example {
+    padding-left: 40px;
+    margin-left:40px;
+    margin-right: 700px;
+    font-size: 20px;
+    line-height: 30px; 
+    text-align: left;
+    background-color: lightgray;
+}
+
+.experiencetext {
+    text-align: left;
+    padding-left: 15px;
+    
+    font-size: 20px;
+    line-height: 30px;   
+}
+
+.english {
+    text-align: left;
+    padding-left: 30px;
+    
+    font-size: 20px;
+    line-height: 30px; 
+}
+.footer {
+    padding-top: 30px;
+    padding-left: 200px;
+}
+.logo {
+    margin-left: 1200px;
+    width: 100px;
+    height: 30px;
+    
+}
 @font-face {
     font-family: 'Roboto';
     src: url("assets/fonts/RobotoLight.ttf");
@@ -64,5 +116,3 @@ h2 {
     src: url("assets/fonts/RobotoRegular.ttf");
     font-weight: 400;
   }
-
-  
