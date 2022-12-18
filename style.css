@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+
+.parent {
+    text-align: center;
+}
+.left, .right {
+    display: inline-block;
+  
+}
+.left {
+    width: 30%;
+    background-color: rgb(207, 234, 243);
+    
+}
+.right {
+    width: 55%;
+     
+}
+.h2-right {
+   
+    font-size: 30px;
+    text-align: left;
+    padding-left: 50px;
+    
+}
+
+.h2-left {
+    font-size: 30px;
+    text-align: middle;
+    padding-left: 50px;  
+}
+
+.contactlist {
+    text-align: left;
+    padding-left: 120px;
+    font-size: 20px;
+    line-height: 30px;
+}
+.skillslist
+{
+    text-align: left;
+    padding-left: 120px;
+    
+    font-size: 20px;
+    line-height: 30px;
+}
+.name {
+    
+    font-size: 40px;
+    font-style: italic;
+    text-align: left;
+    padding-left: 50px;
+    line-height: 10px;
+    text-decoration:underline;
+}
+.aboutmetext {
+    text-align: left;
+    padding-left: 30px;
+    
+    font-size: 20px;
+    line-height: 30px;
+}
+.educationtext {
+    text-align: left;
+    padding-left: 15px;
+    
+    font-size: 20px;
+    line-height: 30px; 
+}
+
+.example {
+    padding-left: 40px;
+    margin-left:40px;
+    margin-right: 700px;
+    font-size: 20px;
+    line-height: 30px; 
+    text-align: left;
+    background-color: lightgray;
+}
+
+.experiencetext {
+    text-align: left;
+    padding-left: 15px;
+    
+    font-size: 20px;
+    line-height: 30px;   
+}
+
+.english {
+    text-align: left;
+    padding-left: 30px;
+    
+    font-size: 20px;
+    line-height: 30px; 
+}
+.footer {
+    padding-top: 30px;
+    padding-left: 200px;
+}
+.logo {
+    margin-left: 1200px;
+    width: 100px;
+    height: 30px;
+    
+}
+
+.nav {
+    display: block;
+}
+
+.nav__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url("assets/fonts/RobotoLight.ttf");
+    font-weight: 300;
+  }
+  @font-face {
+    font-family: 'Roboto';
+    src: url("assets/fonts/RobotoRegular.ttf");
+    font-weight: 400;
+  }
